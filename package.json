@@ -1,0 +1,30 @@
+{
+  "name": "kalah",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/bykbaiev/kalah#readme",
+  "bugs": {
+    "url": "https://github.com/bykbaiev/kalah/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bykbaiev/kalah.git"
+  },
+  "license": "MIT",
+  "author": "alexandr.bikbaev@gmail.com",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12",
+    "@types/node": "^20.0.0",
+    "eslint": "^8.45.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  }
+}
